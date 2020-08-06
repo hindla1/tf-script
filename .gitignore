@@ -2,3 +2,5 @@ terraform.tfvars
 terraform.tfstate.backup
 terraform.tfstate
 .terraform/*
+my-tf-key
+my-tf-key.pub
