@@ -1,7 +1,8 @@
 resource "aws_key_pair" "mykey" {
 
      key_name = "my-own-key"
-     public_key = file("my_key.pub")
+     # loading public key
+     public_key = file("my_key.pub") 
 }
 
 
